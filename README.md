@@ -11,7 +11,7 @@
 - All types of request supported(GET, POST, PUT, HEAD, DELETE etc.)
 - HTTP request parsing and validation
 - Chunked response support
-- Auto response split if size is more than ESP8266 inner buffer
+- Auto response split if size is larger than ESP8266 inner buffer
 - JSON and API call ready
 - No extra memory is used
 
@@ -51,9 +51,9 @@ target_link_libraries(${PROJECT_NAME}.elf JSON)         # add if JSON is needed
 
 ### Wiring
 
-- <img src="https://github.com/ximtech/DS18B20/blob/main/example/pinout.PNG" alt="image" width="300"/>
-- <img src="https://github.com/ximtech/DS18B20/blob/main/example/wiring.PNG" alt="image" width="300"/>
-- <img src="https://github.com/ximtech/DS18B20/blob/main/example/wiring_2.PNG" alt="image" width="300"/>
+- <img src="https://github.com/ximtech/ESP8266Server/blob/main/example/pinout.PNG" alt="image" width="300"/>
+- <img src="https://github.com/ximtech/ESP8266Server/blob/main/example/wiring.PNG" alt="image" width="300"/>
+- <img src="https://github.com/ximtech/ESP8266Server/blob/main/example/wiring_2.PNG" alt="image" width="300"/>
 
 ## Usage
 ***Provide interrupt handler***
