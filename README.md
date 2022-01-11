@@ -1,6 +1,6 @@
 # ESP8266 Server
 
-***STM32*** Micro-sized HTTP web server for ESP8266 using AT commands.
+***STM32*** Low-Layer(LL) library. Micro-sized HTTP web server for ESP8266 using AT commands.
 
 ### Features
 
