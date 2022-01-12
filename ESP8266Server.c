@@ -1,4 +1,4 @@
-#include "ESP8266HTTPServer.h"
+#include "ESP8266Server.h"
 
 #define COMMAND_MAX_LENGTH 100
 #define TMP_TX_BUFFER_MAX_LENGTH 100

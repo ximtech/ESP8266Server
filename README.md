@@ -68,7 +68,7 @@ void USART1_IRQHandler(void) {
 ```
 ***The following example for base application***
 ```c
-#include "ESP8266HTTPServer.h"
+#include "ESP8266Server.h"
 #include "JSON.h"
 
 static void handleRoot(ServerContext *context, HTTPParser *request) {

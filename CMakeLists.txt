@@ -33,10 +33,10 @@ set(ESP8266_SERVER_DIRECTORY
 
 set(ESP8266_SERVER_SOURCES
         ${DWT_DELAY_SOURCES}
-        ${ESP8266Server_SOURCE_DIR}/include/ESP8266HTTPServer.h
+        ${ESP8266Server_SOURCE_DIR}/include/ESP8266Server.h
         ${ESP8266Server_SOURCE_DIR}/include/StringRingBuffer.h
         ${ESP8266Server_SOURCE_DIR}/include/USART_Buffered.h
-        ${ESP8266Server_SOURCE_DIR}/ESP8266HTTPServer.c
+        ${ESP8266Server_SOURCE_DIR}/ESP8266Server.c
         ${ESP8266Server_SOURCE_DIR}/StringRingBuffer.c
         ${ESP8266Server_SOURCE_DIR}/USART_Buffered.c
         CACHE STRING "ESP8266 server source files include to the main project" FORCE)
