@@ -99,7 +99,7 @@ static void handleJson(ServerContext *context, HTTPParser *request) {   // work 
     jsonObjectPut(&rootObject, "description", "text");
 
     char buffer[ESP8266_INNER_TX_BUFFER_SIZE] = {0};    // Max buffer size for AT API is 2048
-    jsonObjectToStringPretty(&rootObject, buffer, 3, 0);    // format JSON with idents - 3 and root level - 0
+    jsonObjectToStringPretty(&rootObject, buffer, ESP8266_INNER_TX_BUFFER_SIZE, 3, 0);    // format JSON with idents - 3 and root level - 0
     deleteJSONObject(&rootObject);  // free resources
     sendServerResponseESP8266(context, HTTP_OK, request->headers, buffer); // send response
 }
